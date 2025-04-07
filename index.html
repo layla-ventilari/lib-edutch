@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca IA Curadora - Neuroacessível</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Biblioteca IA Curadora</h1>
+        <p>Ferramentas digitais personalizadas para educação, criação e desenvolvimento com foco em acessibilidade e neuroeducação</p>
+    </header>
+
+    <main>
+        <section class="form-container">
+            <form id="profileForm">
+                <label for="profile">Qual seu perfil ou desafio atual?</label>
+                <input 
+                    type="text" 
+                    id="profile" 
+                    placeholder="Ex: sou professora da rede pública, sou dev autônomo, quero adaptar materiais para alunos com autismo"
+                    required
+                    aria-required="true"
+                >
+                <p class="hint">Descreva seu contexto profissional ou desafio específico para receber recomendações personalizadas.</p>
+                <button type="submit" id="submitButton">Receber recomendações</button>
+            </form>
+        </section>
+
+        <section id="results" class="results-container">
+            <!-- Resultados serão inseridos aqui via JavaScript -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca IA Curadora - Neuroacessível © <span id="currentYear"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
