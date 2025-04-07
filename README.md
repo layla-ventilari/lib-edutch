@@ -1,5 +1,4 @@
-# 💡 Lib eDutch · Agente Curador Inteligente
-
+# 💡 Lib eDutch 
 Um Microprojeto de Curadoria Personalizada (MCP) focado em **educação, IA e acessibilidade**. Desenvolvido como agente inteligente utilizando a plataforma Manuscript e hospedado em repositório aberto para desenvolvedores e educadores.
 
 > 🧠 Baseado na stack: React · Hugging Face · Data Science · GitHub Copilot · Automação com IA
